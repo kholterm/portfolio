@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>karieholtermannmaps</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome CSS from CDN -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Google web font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+
+<body id="page-top">
+  body { font-family: Lato; }
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Karie's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Section -->
+  <header class="bg-secondary text-white">
+
+    <div class="container text-center">
+      <h1>New Maps Plus Mapping Portfolio</h1>
+      <p class="lead">@karieholtermann<br>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="maps/pacific_crest_trail_8000px.jpg"><img class="card-img-top" src="images/one.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                  <a href="#">The Pacific Crest Trail, the classic map by Erwin Raisz</a>
+                </h4>
+              <p class="card-text">The Pacific Crest Trail (PCT), the second longest trail in the US, is 2,650 miles long and stretches from Mexico to Canada through California, Oregon, and Washington. This map (copyrighted by Erwin Raisz) was georeferenced in QGIS (2.18.19) with GDAL Georeferencer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="maps/Breweries.png"><img class="card-img-top" src="images/two.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                  <a href="#">Breweries in North America and Hawaii</a>
+                </h4>
+              <p class="card-text">Hexbin Map showing the number of breweries in North America and Hawaii. Brewery data was downloaded from The POI Factory; Country and State data was downloaded from Natural Earth Produced with QGIS 2.18.19 The POI Factory. Natural Earth.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="https://nmp.carto.com/u/karieholtermann/builder/cb5e1977-45b0-4778-9acc-080a27d0f756/embed"><img class="card-img-top" src="images/three.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                  <a href="#">2019 Iditarod</a>
+                </h4>
+              <p class="card-text">From Anchorage, in south central Alaska, to Nome on the western Bering Sea coast. The Iditarod race covers 1000 miles of mountain ranges, frozen river, dense forest, and desolate tundra in temperatures far below zero, winds causing low visibility,
+                and long hours of darkness. Data were acquired from Natural Earth, the Bureau of Land Management, the U.S. Environmental Protection Agency, and the North American River Width Data Set (NARWidth). Created on QGIS 3.0 and CARTO.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="https://karieholtermann.github.io/github.io-finalproject/"><img class="card-img-top" src="images/project4.png" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                  <a href="#">Reservoirs and Associated Dams of the World</a>
+                </h4>
+              <p class="card-text">This map created with leaflet shows reservoirs and their associated dams throughout the world. The size of the circles represents the representative capacity (cubic km) of each reservoir. The Global Reservoir and Dam Database, contains 6,862
+                records of reservoirs and their associated dams with a cumulative storage capacity of 6,197 cubic km. Data were aquired from NASA Socioeconomic Data and Applications Center (SEDAC). The map was generated using custom Javascript, including
+                the Leaflet library.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h2>About me</h2>
+          <div class='my-5 clearfix'>
+            <div class="float-md-left mb-5 mr-md-4"><img class="rounded-circle img-fluid" src="images/diatom.jpg" alt=""></div>
+            <p class="lead">Hi, I'm Karie. I'm a Biologist specializing in frontend JS development and web mapping with such cool libraries as Leaflet and D3.js.</p>
+            <p class="lead">When not at work or taking classes, I enjoy hiking with my dog Penny, taking pictures, hanging out with friends, and traveling. I have placed a diatom picture here because my next project involves mapping phytoplankton.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Skills</h3>
+          <dl>
+            <dt>GIS</dt>
+            <dd>QGIS for data analysis, manipulation, and, format conversion</dd>
+            <dd>PostGIS/SQL for data querying</dd>
+            <dt>Web Mapping</dt>
+            <dd>Leaflet for raster tilesets, basic thematic mapping, and telling stories with maps</dd>
+            <dd>D3.js for advanced infographics and map projections</dd>
+            <dt>Coding</dt>
+            <dd>JavaScript</dd>
+          </dl>
+        </div>
+        <div class="col-md-6">
+          <h3>Get in touch!</h3>
+          <ul class="list-unstyled">
+            <li class=""><i class="fa fa-twitter mr-2"></i><a href="https://twitter.com">@karieholtermann</a></li>
+            <li class=" mr-2"><i class="fa fa-github mr-2"></i><a href="https://github.com/karieholtermann">karieholtermann</a></li>
+            <li class=""><i class="fa fa-envelope mr-2"></i><a href="https://mail.google.com/mail/">karieholtermann@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; karieholtermann 2019</p>
+    </div>
+  </footer>
+
+  <!-- JQuery JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JavaScript Plugin -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
